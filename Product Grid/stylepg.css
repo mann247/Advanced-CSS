@@ -1,0 +1,87 @@
+/*Nia Manning
+General Inquiry #4
+7/8/2025*/
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/albuquerque/one_long_groove_237caf66-17b4-4d63-a001-218c0811c2cb.jpg);
+    background-color: slategray;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+h1{
+    font-family: system-ui;
+    padding: 100px;
+    font-weight: bold;
+    background-color: chocolate;
+    text-align: center;
+    margin-top: 30px;
+} h1 > a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+} a:hover{
+  text-decoration: underline;
+}
+
+p{
+    font-family: system-ui;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.product-card{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px;
+    padding: 15px;
+    text-align: center;
+    transition: transform(-5px);
+} 
+
+.product-card:hover{
+    transform: translateY(-5px);
+}
+
+.product-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3{
+   margin: 10px 0 5px;
+   font-family: system-ui;
+}
+.price{
+    font-weight:bold;
+    color: chocolate
+}
+
+@media(max-width: 600px){
+    .product-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 1024px){
+    .product-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

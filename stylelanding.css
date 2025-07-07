@@ -1,0 +1,31 @@
+/*Nia Manning
+General Inquiry 4
+7/8/2025*/
+
+body{
+    background-color: slategray;
+    width: 100%;
+    font-family: system-ui;
+}
+
+h1{
+    font-weight: normal;
+    padding: 0 0 10px;
+    margin: 0 0 0 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a{
+  margin: 5px;
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+p{
+  color: white;
+}

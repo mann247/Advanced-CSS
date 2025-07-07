@@ -1,0 +1,78 @@
+/*Nia Manning
+General Inquiry #4
+7/8/2025*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    font-family: system-ui;
+    padding: 100px;
+    font-weight: bold;
+} h1 > a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+} a:hover{
+  text-decoration: underline;
+}
+
+
+.us-flag{
+    height: 532px;
+    width: 90%;
+    max-width: 900px;
+    border: 6px solid black;
+    position: relative;
+}
+
+.us-flag > table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stars-img{
+    width: 450px;
+    height: 280px;
+    z-index: 1;
+    position: absolute;
+    display: block;
+}
+
+td{
+    height: 10%;
+}
+
+.stripe-red{
+    background-color: red;
+    width: 800px;
+    height: 40px;
+}
+
+.stripe-white{
+    background-color: white;
+    width: 800px;
+    height: 40px;
+}
+
+@media(max-width: 600px){
+    .us-flag{
+        max-width: 95vw;
+        border-width: 6px;
+    }
+    .stars-img{
+        width:  60%;
+    }
+}
