@@ -28,6 +28,22 @@ h1{
   text-decoration: underline;
 }
 
+.btn-link{
+    background-color: #f47c3c;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: system-ui;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+
+}.btn-link:hover{
+    background-color: #f8b48f;
+}
+
 p{
     font-family: system-ui;
 }
