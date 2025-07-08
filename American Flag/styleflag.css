@@ -67,7 +67,7 @@ td{
     height: 40px;
 }
 
-@media(max-width: 600px){
+@media(max-width: 600px){ 
     .us-flag{
         max-width: 95vw;
         border-width: 6px;
