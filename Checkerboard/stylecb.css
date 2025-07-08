@@ -34,7 +34,8 @@ h1 > a{
 .checkerboard{
     display: grid; 
     grid-template-columns: repeat(8,1fr);
-    /*grid-template-rows: repeat(8,1fr);*/
+    grid-template-rows: repeat(8,1fr);
+    flex-shrink: 1;
     height: 800px;
     width: 800px;
     border: 6px solid black;
@@ -69,6 +70,7 @@ h1 > a{
 @media(max-width: 600px){
     .checkerboard{
           overflow-x: hidden;
+          overflow-y: hidden;
           max-width: 400px;
     }
 }
