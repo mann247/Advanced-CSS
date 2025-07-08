@@ -22,6 +22,7 @@ a{
   text-decoration: none;
   justify-content: center;
   color: white;
+  cursor: pointer;
 }
 a:hover {
   text-decoration: underline;
