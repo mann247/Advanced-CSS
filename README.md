@@ -1,5 +1,4 @@
 # Advanced-CSS
-# 7-8-2025
 
 This repository  showcases front-end coding challenges built with HTML and CSS. Each activity demonstrates layout, styling, and design fundamentals for modern web devlopment.
 
