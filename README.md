@@ -1,15 +1,20 @@
-#Advanced-CSS
 # Advanced-CSS
-
-# Nia Manning
-# General Inquiry #4
 # 7-8-2025
 
-This repository contains the following:
+This repository  showcases front-end coding challenges built with HTML and CSS. Each activity demonstrates layout, styling, and design fundamentals for modern web devlopment.
 
-1. A Home Page to each coding challenge
-2. Activity 1 - An 8x8 Checkboard
-3. Activity 2 - An American Flag
-4. Activity 3 - A Product Grid containing 8 products.
+
+📂Project Includes
+1. Landing Page - A homepage linking to each project
+2. Checkboard - An 8x8 grid styled entirely with CSS
+3. American Flag - A creation of the American Flag
+4. Product Grid - A responsive listing with 8 items, all linking to their respective websites
+
+💻 Technologies
+1. HTML
+2. CSS
+
+👩🏾‍💻 Author
+Created by Nia Manning for RoadtoHire
 
 
